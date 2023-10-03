@@ -1,13 +1,13 @@
 const staticMedEng = "medieval-england-site-v1"
 const assets = [
     "/",
-    "/index.html",
-    "/Styles/style.css",
-    "/JS/app.js",
-    "/Images/lancaster.png",
-    "/Images/normans.jpeg",
-    "/Images/plantaganet.png",
-    "/Images/york.png",
+    "index.html",
+    "style.css",
+    "app.js",
+    "lancaster.png",
+    "normans.jpeg",
+    "plantaganet.png",
+    "york.png",
 ]
 
 self.addEventListener("install", installEvent => {
