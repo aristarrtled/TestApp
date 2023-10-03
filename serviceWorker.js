@@ -1,6 +1,5 @@
 const staticMedEng = "medieval-england-site-v1"
 const assets = [
-    "/",
     "index.html",
     "style.css",
     "app.js",
