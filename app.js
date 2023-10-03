@@ -1,9 +1,9 @@
 const container = document.querySelector(".container")
 const dynasties = [
-    {name: "Normans", image: "Images/normans.jpeg"},
-    {name: "Plantaganets", image: "Images/plantaganet.png"},
-    {name: "Lancaster", image: "Images/lancaster.png"},
-    {name: "York", image: "Images/york.png"},
+    {name: "Normans", image: "normans.jpeg"},
+    {name: "Plantaganets", image: "plantaganet.png"},
+    {name: "Lancaster", image: "lancaster.png"},
+    {name: "York", image: "york.png"},
 ]
 
 const showCoffees = () => {
@@ -26,7 +26,7 @@ const showCoffees = () => {
   if ("serviceWorker" in navigator){
     window.addEventListener("load", function() {
         this.navigator.serviceWorker
-            .register("/serviceWorker.js")
+            .register("serviceWorker.js")
             .then(res => console.log("service worker registered"))
             .catch(err => console.log("service worker not registered", err))
     })
